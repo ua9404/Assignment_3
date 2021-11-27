@@ -25,4 +25,4 @@ def test_bathroom_options():
     assert "y" == 'Brush holder'
     assert "n" == "None and Next"
 
-test_bathroom_options()    
+test_bathroom_options()
