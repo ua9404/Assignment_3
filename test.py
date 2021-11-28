@@ -32,7 +32,7 @@ test_bathroom_options()
 
 # test to see if selected categories are responding
 def test_selected_item():
-    home_home.selected_items()
+    home_home.main().selected_items()
     selected_item = input()
     assert selected_item == input()
     assert selected_item == "G.O"
